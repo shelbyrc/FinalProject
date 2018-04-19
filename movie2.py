@@ -1,4 +1,4 @@
-from secrets import *
+from secrets2 import *
 import requests
 import json
 import csv
@@ -315,7 +315,7 @@ if __name__ == '__main__':
 
 			else:
 				print('Please enter a valid command! ')
-				
+
 		if response.lower() == 'exit':
 			print('Bye!')
 			break
